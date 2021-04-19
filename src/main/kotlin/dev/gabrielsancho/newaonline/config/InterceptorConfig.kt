@@ -5,11 +5,9 @@ import dev.gabrielsancho.newaonline.interceptor.Interceptor
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.context.annotation.Scope
+import org.springframework.context.annotation.ScopedProxyMode
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer
-import org.springframework.context.annotation.ScopedProxyMode
-
-
 
 
 @Configuration

@@ -2,12 +2,10 @@ package dev.gabrielsancho.newaonline.repository
 
 import dev.gabrielsancho.newaonline.domain.User
 import org.springframework.http.HttpMethod
-import org.springframework.http.ResponseEntity
 import org.springframework.stereotype.Repository
 import org.springframework.web.reactive.function.BodyInserters
 import org.springframework.web.reactive.function.client.WebClient
 import org.springframework.web.reactive.function.client.toEntity
-import reactor.core.publisher.Mono
 
 @Repository
 class AuthRepository {
